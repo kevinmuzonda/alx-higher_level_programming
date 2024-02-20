@@ -7,9 +7,14 @@ instance of the specified class ; otherwise False
 
 
 def is_kind_of_class(obj, a_class):
-    """Defining the function"""
+    """Defining the function
 
-    if type(obj) == a_class or isinstance(obj, a_class):
-        return (True)
-    else:
-        return (False)
+        Args:
+        obj: The object to check
+        a_class: The specified class
+
+    Return:
+        True: If obj is an instance
+        False: If otherwise
+    """
+    return isinstance(obj, a_class)
