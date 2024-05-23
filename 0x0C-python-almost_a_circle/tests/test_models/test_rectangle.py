@@ -1,4 +1,4 @@
-    t test for rectangle """
+    t test for rectangle ""
 import unittest
 from models.square import Square
 from models.rectangle import Rectangle
